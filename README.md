@@ -6,5 +6,6 @@ React application created using vite and configured using eslint, prettier and h
 1) Clone the repo
 2) Delete the .git folder
 3) Run *npm install*
-4) Run *npm run prepare*
-5) Run *npm run dev*
+4) create git init
+5) Run *npm run prepare*
+6) Run *npm run dev*
