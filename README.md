@@ -1,5 +1,5 @@
 # React-Codebase
-React application create using vite and configure eslint, prettier and huskey
+React application created using vite and configured using eslint, prettier and huskey
 
 ## Steps to set up the project
 
