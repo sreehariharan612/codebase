@@ -1,0 +1,124 @@
+@import url("./fonts.css");
+@import url("./normalize.css");
+
+
+/** Basic Styles */
+:root {
+    --color-primary: #fd4522;
+    --color-secondary: #fffff5;
+    --color-accent: #ff3498;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'inter-regular', Arial, Helvetica, sans-serif;
+    color: var(--color-body);
+    font-size: 2.4rem; /** For Mobile versions */
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+
+/** Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-headings);
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 7rem; /** For Mobile version*/
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    margin-top: 0;
+    width : 50ch; /** used to achieve 60-70 character per line*/
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.8rem;  /** For desktop version */
+    }
+    h1 {
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 2.4rem;
+    }
+
+}
+
+/** Links */
+a {
+    text-decoration: none;
+}
+
+.link-arrow {
+    color: var(--color-accent);
+    font-size: 2rem;
+}
+
+.link-arrow::after {
+    content: "-->";
+    margin-left: 5px;
+    transition: margin 0.15s;
+}
+
+.link-arrow:hover::after {
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .link-arrow {
+        font-size: 1.5rem;
+    }   
+}
+
+/** Badges */
+
+/** Lists */
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/** Icons */
+
+/** Inputs*/
+.input {
+    outline: 0;
+}
+
+/** Buttons */
+.btn {
+    outline: 0;
+}
+
+/** Cards */
+

@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('fonts/opensans/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/opensans/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display:fallback;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/opensans/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/opensans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display:fallback;
+}
+
+@font-face {
+    font-family: 'dosis-light';
+    src: url('fonts/dosis/dosis-light-webfont.woff2') format('woff2'),
+         url('fonts/dosis/dosis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display:fallback;
+}
+
+@font-face {
+    font-family: 'dosis-medium';
+    src: url('fonts/dosis/dosis-medium-webfont.woff2') format('woff2'),
+         url('fonts/dosis/dosis-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display:fallback;
+}
+
+@font-face {
+    font-family: 'inter-bold';
+    src: url('fonts/inter/inter-bold-webfont.woff2') format('woff2'),
+         url('fonts/inter/inter-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'inter-regular';
+    src: url('fonts/inter/Inter-Regular.woff2') format('woff2'),
+         url('fonts/inter/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}

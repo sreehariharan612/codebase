@@ -1,20 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link
-			rel="icon"
-			type="image/svg+xml"
-			href="/vite.svg" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0" />
-		<title>Vite + React</title>
-	</head>
-	<body>
-		<div id="root"></div>
-		<script
-			type="module"
-			src="/src/main.jsx"></script>
-	</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, Base code, CSS" />
+    <meta
+      name="description"
+      content="this is page that gives a base structure for the html code"
+    />
+    <meta property="og:title" content="Base Document...." />
+    <meta
+      property="og:description"
+      content="Used to server base document...."
+    />
+    <meta property="og:type" content="Website" />
+    <meta property="og:image" content="" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>my Base Document</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <!-- * here we can also structure section inside article -->
+      <section>
+        <h1>the main heading</h1>
+        <article class="card">
+          <figure>
+            <img src="#" alt="#" />
+            <figcaption>caption text</figcaption>
+          </figure>
+          <div class="card-body">card1 description</div>
+        </article>
+        <article class="card">
+          <header class="card-header"></header>
+          <div class="card-body">card2 description</div>
+        </article>
+      </section>
+      <section>
+        <h2>heading 2</h2>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./index.js" defer></script>
+  </body>
 </html>
