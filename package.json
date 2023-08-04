@@ -1,13 +1,13 @@
 {
-	"name": "vite_app",
+	"name": "react-ts",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build",
+		"build": "tsc && vite build",
+		"lint": "eslint . --ext ts,tsx --fix --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"lint": "eslint  --fix --max-warnings=0 .",
 		"format": "prettier --write .",
 		"prepare": "husky install"
 	},
@@ -16,25 +16,29 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@types/react": "^18.0.27",
-		"@types/react-dom": "^18.0.10",
-		"@vitejs/plugin-react-swc": "^3.0.0",
-		"eslint": "^8.34.0",
+		"@types/react": "^18.2.15",
+		"@types/react-dom": "^18.2.7",
+		"@typescript-eslint/parser": "^6.0.0",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@vitejs/plugin-react": "^4.0.3",
+		"eslint": "^8.45.0",
 		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-prettier": "^8.6.0",
 		"eslint-plugin-import": "^2.27.5",
 		"eslint-plugin-jsx-a11y": "^6.7.1",
 		"eslint-plugin-react": "^7.32.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.3",
 		"eslint-plugin-simple-import-sort": "^10.0.0",
-		"eslint-plugin-unused-imports": "^2.0.0",
+		"eslint-plugin-unused-imports": "^3.0.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.1.2",
 		"prettier": "2.8.4",
-		"vite": "^4.1.0"
+		"typescript": "^5.0.2",
+		"vite": "^4.4.5"
 	},
 	"lint-staged": {
-		"*.{js,jsx}": "eslint --fix",
-		"*.{js,css,md,html,json,jsx}": "prettier --write"
+		"*.{js,jsx,ts,tsx}": "eslint --fix",
+		"*.{js,css,md,html,json,jsx,ts,tsx}": "prettier --write"
 	}
 }
